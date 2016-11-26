@@ -1,0 +1,40 @@
+{
+    "author": "Arkolis",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "ark_time",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
+        "displayName": "Ark_Time",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "KEY_TEMPERATUREF",
+            "KEY_CONDITIONS",
+            "FC",
+            "KEY_TEMPERATUREC",
+            "dSteps",
+            "ZipCode",
+            "UseLoc"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "36238c1a-bb41-44f0-a8ff-0a1188597882",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.96.0"
+}
